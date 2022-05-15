@@ -367,25 +367,14 @@ span {
   margin: 6rem 0 1rem 0;
 }
 .about .value-card {
+  position: relative;
   text-align: center;
 }
-.about .value-card h4 {
-  font-size: 3.3rem;
-  color: #000000;
-  font-family: 'Line Awesome Free' !important;
+.about .value-card i {
+  font-size: 3rem;
 }
-@media only screen and (max-width: 769px) {
-  .about .value-card h4 {
-    font-size: 2.3rem;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .about .value-card h4 {
-    font-size: 2rem;
-  }
-}
-.about .value-card h3 {
-  font-size: 15px;
+.about .value-card span {
+  font-size: 1.2rem;
   color: #000000;
 }
 .amenities .h2-top-txt {
@@ -581,6 +570,12 @@ span {
   background-color: #eee9c6;
   color: #000000;
 }
+.map .main-text {
+  text-align: center;
+  line-height: 35px;
+  width: 70%;
+  margin: 25px auto;
+}
 .map .h2-top-txt {
   color: #00885f !important;
 }
@@ -589,6 +584,7 @@ span {
   padding: 0;
 }
 .map li {
+  position: relative;
   padding-left: 1.3em;
   margin-bottom: 1rem;
 }
@@ -857,6 +853,7 @@ span {
 }
 .footer p {
   color: #000000;
+  text-align: justify;
 }
 @media screen and (max-width: 480px) {
   .footer p {
@@ -866,6 +863,9 @@ span {
 .footer .footer-menu ul {
   margin-top: 1rem;
   list-style: none;
+  padding: 0px;
+  text-align: center;
+  line-height: 35px;
 }
 .footer .footer-menu ul li a {
   color: black;

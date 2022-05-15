@@ -329,9 +329,10 @@ span {
 
         p {
             color: rgb(0, 0, 0);
+
             @media only screen and (max-width:480px) {
                 text-align: justify;
-    
+
             }
 
         }
@@ -427,27 +428,24 @@ span {
 
     }
 
+
     .value-card {
+        position: relative;
         text-align: center;
 
-        h4 {
-            font-size: 3.3rem;
-            color: @secondary-color;
-            font-family: 'Line Awesome Free' !important;
+       
 
-            @media only screen and (max-width:769px) {
-                font-size: 2.3rem;
-            }
 
-            @media only screen and (max-width:480px) {
-                font-size: 2rem;
-            }
+
+        i {
+            font-size: 3rem;
         }
 
-        h3 {
-            font-size: 15px;
+        span {
+            font-size: 1.2rem;
             color: rgb(0, 0, 0);
         }
+
     }
 
 
@@ -643,6 +641,7 @@ span {
 // =================================premium amenites start========================================
 
 .premium-amenites {
+
     .amen-card {
         margin: 0 2rem;
 
@@ -716,6 +715,13 @@ span {
     background-color: @priamry-color;
     color: rgb(0, 0, 0);
 
+    .main-text {
+        text-align: center;
+        line-height: 35px;
+        width: 70%;
+        margin: 25px auto;
+    }
+
     .h2-top-txt {
         color: @secendary-text-color  !important;
     }
@@ -726,8 +732,10 @@ span {
     }
 
     li {
+        position: relative;
         padding-left: 1.3em;
         margin-bottom: 1rem;
+
     }
 
     li:before {
@@ -1077,70 +1085,70 @@ span {
 //===============================section foooter start==========================
 
 .footer {
-
-    background-color: @priamry-color;
+    background-color: #eee9c6;
     padding-top: 3rem;
+}
 
-    img {
-        max-width: 114px;
-        margin-bottom: 1rem;
+.footer img {
+    max-width: 114px;
+    margin-bottom: 1rem;
+}
+
+.footer h3 {
+    color: #00885f !important;
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 0.7rem;
+}
+
+.footer p {
+    color: #000000;
+    text-align: justify;
+}
+
+@media screen and (max-width: 480px) {
+    .footer p {
+        text-align: justify;
     }
+}
 
-    h3 {
-        color: @secendary-text-color;
-        margin: 0;
-        font-size: 18px;
-        margin-bottom: .7rem;
-    }
+.footer .footer-menu ul {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    line-height: 35px;
+}
 
-    p {
-        color: rgb(0, 0, 0);
+.footer .footer-menu ul li a {
+    color: black;
+    text-decoration: none;
+}
 
-        @media screen and (max-width:480px) {
-            text-align: justify;
-        }
-    }
+.footer a {
+    color: #000000;
+    text-decoration: none;
+    font-family: sans-serif;
+}
 
-    .footer-menu {
-        ul {
-            margin-top: 1rem;
-            list-style: none;
+.footer .line-foo {
+    margin: 1rem 0;
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
 
-            li {
-                a {
-                    color: black;
-                    text-decoration: none;
-                }
-            }
-        }
-    }
+.footer .btn {
+    color: white;
+}
 
-    a {
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        font-family: sans-serif;
-    }
+.footer .copy {
+    padding-bottom: 2rem;
+}
 
-    .line-foo {
-        margin: 1rem 0;
-        width: 100%;
-        height: 1px;
-        background-color: @secondary-color;
-
-    }
-
-    .btn {
-        color: white;
-    }
-
-    .copy {
-        padding-bottom: 2rem;
-
-        a {
-            color: rgb(0, 0, 0);
-            text-decoration: none;
-        }
-    }
+.footer .copy a {
+    color: #000000;
+    text-decoration: none;
 }
 
 .call-btn {
