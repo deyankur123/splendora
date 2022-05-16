@@ -600,12 +600,19 @@ span {
   color: #000000;
   margin-right: 1rem;
 }
-.map .map-li h5 {
-  font-size: 18px;
-  font-weight: bold;
+.map .map-li span {
+  position: relative;
+  color: #00885f !important;
+  font-size: 1.3rem;
+  display: block;
+  margin-bottom: 6px;
+}
+.map .map-li h4 {
+  font-size: 15px !important;
+  line-height: 14px;
 }
 .map .map-li p {
-  font-size: 16px;
+  font-size: 15px;
 }
 .testimonial-card {
   margin: 0.7rem;

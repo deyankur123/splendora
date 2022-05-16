@@ -433,7 +433,7 @@ span {
         position: relative;
         text-align: center;
 
-       
+
 
 
 
@@ -752,14 +752,26 @@ span {
     }
 
     .map-li {
+        @media screen {
+            
+        }
+         span {
+             position: relative;
+             color:@secendary-text-color;
+             font-size: 1.3rem;
+             display: block;
+             margin-bottom: 6px;
+            
+        }
 
-        h5 {
-            font-size: 18px;
-            font-weight: bold;
+       
+        h4{
+            font-size:15px !important;
+           line-height:14px;
         }
 
         p {
-            font-size: 16px;
+            font-size: 15px;
         }
     }
 }
@@ -912,9 +924,11 @@ span {
 
         }
     }
-.play{
-    cursor: pointer;
-}
+
+    .play {
+        cursor: pointer;
+    }
+
     .video-box .image {
         position: relative;
         overflow: hidden;
