@@ -1034,7 +1034,7 @@ span {
   position: fixed;
   top: 0;
   width: calc(50% + 1px);
-  background: #eee9c6;
+  background: #080808;
 }
 .ctn-preloader .loader-section.section-left {
   left: 0;
