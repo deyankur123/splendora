@@ -605,7 +605,7 @@ span {
   font-weight: bold;
 }
 .map .map-li p {
-  font-size: 13px;
+  font-size: 16px;
 }
 .testimonial-card {
   margin: 0.7rem;
@@ -696,6 +696,9 @@ span {
 }
 .contact .video-box a {
   text-decoration: none;
+}
+.contact .play {
+  cursor: pointer;
 }
 .contact .video-box .image {
   position: relative;

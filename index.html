@@ -21,6 +21,8 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" />
     <!-- ======================boostrap css=================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- ======================owl carrousel css==================================== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -254,11 +256,11 @@
                 <div class="row">
                     <div class="col-md-6" data-aos="fade-right">
                         <div class="about-text">
-                            <p class="h2-top-txt" data-aos="fade-up">Project Overview</p>
-                            <h2 data-aos="fade-up" data-aos-delay="100">
+                            <p class="h2-top-txt">Project Overview</p>
+                            <h2 >
                                 WELCOME TO SAlTEE SPLENDORA
                             </h2>
-                            <p data-aos="fade-up" data-aos-delay="100"> Spacious rooms, luxurious facilities, and
+                            <p> Spacious rooms, luxurious facilities, and
                                 beautiful ambiance– Is that what you look for in your new home?
                                 Embrace luxurious living with Saltee Splendora. Choose from our 3 or 4 BHK apartments
                                 each measuring 1485 to 2406 sq. ft. Get possession of your dream home by December 2022.
@@ -268,13 +270,13 @@
                                 the city. Located on Rajarhat Expressway, Saltee Splendora is the ideal home you have
                                 always wished for.
                             </p>
-                            <p data-aos="fade-up" data-aos-delay="100">A modern urban lifestyle needs much more than
+                            <p >A modern urban lifestyle needs much more than
                                 beautiful rooms. You also need a space where you can nurture your soul, take care of
                                 your body, and connect with like-minded people. Saltee Splendora brings to you all the
                                 amenities that will make every day luxurious!
                                 <p>
 
-                                    <div class="cta pb-4 pb-md-1" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="cta pb-4 pb-md-1"  >
                                         <button type="button" class="btn btn-secondary me-2 " data-bs-toggle="modal"
                                             data-bs-target="#exampleModal">Enquire Now</button>
 
@@ -319,7 +321,7 @@
                     </div>
                     <div class="col-md-2 col-6" data-aos="zoom-in" data-aos-delay="100">
                         <div class="row value-card">
-                            <div class="col-md-auto p-0"><img style="width:50px ;" src="icons/up-arrow.png"></div>
+                            <div class="col-md-auto p-0"><img style="width:50px ;" src="icons/stairs.png"></div>
                             <div class="col-md-6">
                                 <span>G+7</span>
                                 <p>Elevation</p>
@@ -445,7 +447,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
-                        <div class="amen-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="amen-card" >
                             <div class="d-flex align-items-center">
                                 <div class="flex-shrink-0">
                                     <div class="amen">
@@ -481,7 +483,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
-                        <div class="amen-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="amen-card" >
                             <div class="d-flex align-items-center">
                                 <div class="flex-shrink-0">
                                     <div class="amen">
@@ -500,11 +502,11 @@
 
 
                     <div class="col-md-4 col-6">
-                        <div class="amen-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="amen-card">
                             <div class="d-flex align-items-center">
                                 <div class="flex-shrink-0">
                                     <div class="amen">
-                                        <i class="las la-fire-alt"></i>
+                                       <img style="width:30px ;" src="icons/garden-barbecue-.png">
                                     </div>
                                 </div>
                                 <div class="flex-grow-1 ms-md-3 txt">
@@ -518,7 +520,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
-                        <div class="amen-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="amen-card">
                             <div class="d-flex align-items-center">
                                 <div class="flex-shrink-0">
                                     <div class="amen">
@@ -873,12 +875,13 @@
                         <h3 class="mb-md-5 mb-4">Here's a walkthrough of our project</h3>
                         <div class="video-box mb-2 mt-3">
                             <img src="img/wallk.webp" class="img-fluid" alt="">
-                            <a href="https://www.youtube.com/watch?v=tgbNymZ7vqY"  class="lightbox-image popup-youtube overlay-box"><span class="las la-play"><i
+                            <div class="lightbox-image popup-youtube  overlay-box">
+                                <span class="las la-play play " data-bs-toggle="modal" data-bs-target="#exampleModal"><i
                                         class="las la-play "></i><i class="ripple "></i></span>
                                 <div class="text">
 
                                 </div>
-                            </a>
+                            </div>
                         </div>
                         <!-- <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3> -->
                         <!-- <p>See our Walkthrough</p> -->
@@ -951,6 +954,16 @@
 
                             </form>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
+                    <div class="modal-content">
+                        
+                        <iframe style="height:500px;" class="w-100 fluid" id="youtube-frame" src=""></iframe>
                     </div>
                 </div>
             </div>
@@ -1353,8 +1366,20 @@
             }
         })
     </script>
+
+    <script>
+        $(document).ready(function () {
+            $(" .play").click(function (t) {
+                $("#youtube-frame").attr("src",
+                    "https://www.youtube.com/embed/omr4gyFmLL4?autoplay=1&mute=1")
+            })
+        });
+    </script>
     <!-- =========================bootsrtap js=============================== -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
     <!-- =====================================aos js============================ -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
@@ -1476,15 +1501,7 @@
         });
         // =======================magnificPopup video===========================
         $(document).ready(function () {
-            $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
 
-                type: 'iframe',
-                mainClass: 'mfp-fade',
-                removalDelay: 160,
-                preloader: false,
-
-                fixedContentPos: false
-            });
         });
     </script>
 
