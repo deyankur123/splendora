@@ -371,6 +371,13 @@ span {
     margin: 59px 0 0px calc(2vw + 105px) !important;
   }
 }
+@media only screen and (max-width: 410px) {
+  .about .about-img2 {
+    -webkit-transform: rotate(0deg) !important;
+            transform: rotate(0deg) !important;
+    margin: 59px 0 0px calc(2vw + 65px) !important;
+  }
+}
 .about .about-img2:hover {
   z-index: 9 !important;
 }
