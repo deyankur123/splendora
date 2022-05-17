@@ -137,9 +137,9 @@ span {
   padding-top: 60px;
   height: 105vh;
   width: 100%;
-  background: rgba(255, 255, 255, 0.075);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(74%, rgba(90, 89, 89, 0.397)), to(#2a2e2f27)), url(../img/banner.webp) center / cover;
-  background: linear-gradient(180deg, rgba(90, 89, 89, 0.397) 74%, #2a2e2f27 100%), url(../img/banner.webp) center / cover;
+  background: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(74%, rgba(255, 255, 255, 0)), to(#055782)), url("../img/home.jpg") center / cover;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 74%, #055782 100%), url("../img/home.jpg") center / cover;
 }
 @media only screen and (max-width: 480px) {
   .banner {
@@ -150,15 +150,10 @@ span {
   color: #fff;
 }
 .banner .nav-bar-custom a:hover {
-  color: #000000 !important;
-}
-@media only screen and (max-width: 480px) {
-  .banner .banner-text {
-    padding: 3rem 0px;
-  }
+  color: #45f5c0 !important;
 }
 .banner .big-heading {
-  color: white;
+  color: #fff;
   font-size: 5rem;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
@@ -168,6 +163,7 @@ span {
   .banner .big-heading {
     font-size: 3.5rem;
     line-height: 60PX;
+    display: inline-block;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -178,7 +174,7 @@ span {
 }
 .banner .cursive-text {
   padding-top: 10%;
-  color: yellow;
+  color: #45f5c0;
   font-size: 6rem;
   font-weight: 100;
   font-family: 'Kristi', cursive !important;
@@ -229,9 +225,6 @@ span {
 .fixed-nav .diagonal:hover {
   color: #fff;
 }
-.fixed-nav .me-2 {
-  width: 150px;
-}
 .navbar-toggler-icon {
   color: #fff;
   font-size: 30px;
@@ -264,29 +257,24 @@ span {
   }
 }
 .about {
-  background-color: #eee9c6;
+  background-color: #0e577e;
+}
+.about .h2-top-txt {
+  color: #45f5c0 !important;
 }
 .about .about-text {
   padding: 0 3rem;
-}
-.about .about-text p {
-  color: #000000;
-}
-@media only screen and (max-width: 480px) {
-  .about .about-text p {
-    text-align: justify;
-  }
-}
-.about .about-text h2 {
-  color: #0e0101;
-}
-.about .about-text .h2-top-txt {
-  color: #00885f !important;
 }
 @media only screen and (max-width: 769px) {
   .about .about-text {
     padding: 0;
   }
+}
+.about .about-text p {
+  color: #fff;
+}
+.about .about-text h2 {
+  color: #ddd;
 }
 .about .about-img img {
   width: 380px;
@@ -354,7 +342,7 @@ span {
   .about .about-img2 {
     -webkit-transform: rotate(0deg) !important;
             transform: rotate(0deg) !important;
-    margin: 59px 0 0px calc(2vw + 105px) !important;
+    margin: 59px 0 0px 91px !important;
   }
 }
 .about .about-img2:hover {
@@ -370,8 +358,8 @@ span {
   text-align: center;
 }
 .about .value-card h4 {
-  font-size: 3.3rem;
-  color: #000000;
+  font-size: 3rem;
+  color: #45f5c0;
   font-family: 'Line Awesome Free' !important;
 }
 @media only screen and (max-width: 769px) {
@@ -386,7 +374,7 @@ span {
 }
 .about .value-card h3 {
   font-size: 15px;
-  color: #000000;
+  color: #fff;
 }
 .amenities .h2-top-txt {
   padding-bottom: 0.5rem;
@@ -411,7 +399,7 @@ span {
   margin-top: 5rem;
 }
 .floor-plan {
-  background-color: #fefbd6;
+  background-color: #bcffeb49;
   padding-top: 4%;
 }
 .floor-plan .tab-btn-list ul li {
@@ -433,7 +421,6 @@ span {
 }
 .floor-plan .tab-img img {
   max-width: 500px;
-  max-height: 600px !important;
   margin: auto;
   display: block;
 }
@@ -477,9 +464,9 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: center ;
+      -ms-flex-pack: center ;
+          justify-content: center ;
   -webkit-column-gap: 5px;
      -moz-column-gap: 5px;
           column-gap: 5px;
@@ -546,7 +533,7 @@ span {
   }
 }
 .premium-amenites .amen {
-  background-color: #eee9c6;
+  background-color: #38ffc329;
   border: none;
   border-radius: 50%;
   height: 60px;
@@ -562,8 +549,8 @@ span {
           align-items: center;
 }
 .premium-amenites .amen i {
-  font-size: 29px;
-  color: black;
+  font-size: 25px;
+  color: #00885f;
 }
 .premium-amenites .amen-card {
   border-top: 1px solid #c7c7c7;
@@ -578,11 +565,11 @@ span {
   margin: 0 !important;
 }
 .map {
-  background-color: #eee9c6;
-  color: #000000;
+  background-color: #0e577e;
+  color: #fff;
 }
 .map .h2-top-txt {
-  color: #00885f !important;
+  color: #45f5c0 !important;
 }
 .map ul {
   list-style: none;
@@ -601,7 +588,7 @@ span {
   /* same as padding-left set on li */
   width: 1.3em;
   /* same as padding-left set on li */
-  color: #000000;
+  color: #45f5c0;
   margin-right: 1rem;
 }
 .map .map-li h5 {
@@ -616,8 +603,8 @@ span {
   background-color: #bcffeb49;
   padding: 1rem;
   border: 1px solid #00885f;
-  -webkit-box-shadow: 0px 0px 8px -4px #000000;
-          box-shadow: 0px 0px 8px -4px #000000;
+  -webkit-box-shadow: 0px 0px 8px -4px #45f5c0;
+          box-shadow: 0px 0px 8px -4px #45f5c0;
 }
 .testimonial-card img {
   width: 140px;
@@ -684,7 +671,7 @@ span {
   border-radius: 0;
 }
 .contact {
-  background-color: #eee9c6;
+  background-color: #bcffeb49;
   /* ============ */
 }
 .contact .about-section .video-column {
@@ -842,7 +829,7 @@ span {
   border-radius: 0;
 }
 .footer {
-  background-color: #eee9c6;
+  background-color: #0e577e;
   padding-top: 3rem;
 }
 .footer img {
@@ -850,29 +837,24 @@ span {
   margin-bottom: 1rem;
 }
 .footer h3 {
-  color: #00885f !important;
+  color: #45f5c0;
   margin: 0;
   font-size: 18px;
   margin-bottom: 0.7rem;
 }
 .footer p {
-  color: #000000;
-}
-@media screen and (max-width: 480px) {
-  .footer p {
-    text-align: justify;
-  }
+  color: #fff;
 }
 .footer .footer-menu ul {
   margin-top: 1rem;
   list-style: none;
 }
 .footer .footer-menu ul li a {
-  color: black;
+  color: #fff;
   text-decoration: none;
 }
 .footer a {
-  color: #000000;
+  color: #fff;
   text-decoration: none;
   font-family: sans-serif;
 }
@@ -880,16 +862,13 @@ span {
   margin: 1rem 0;
   width: 100%;
   height: 1px;
-  background-color: #000000;
-}
-.footer .btn {
-  color: white;
+  background-color: #45f5c0;
 }
 .footer .copy {
   padding-bottom: 2rem;
 }
 .footer .copy a {
-  color: #000000;
+  color: #fff;
   text-decoration: none;
 }
 .call-btn {
@@ -933,7 +912,7 @@ span {
   background-color: #5c636a;
 }
 .location-gmap {
-  padding-bottom: 0px;
+  padding-bottom: 10px;
 }
 .location-gmap .iframe-map {
   height: 70vh;
@@ -1034,7 +1013,7 @@ span {
   position: fixed;
   top: 0;
   width: calc(50% + 1px);
-  background: #eee9c6;
+  background: #0e577e;
 }
 .ctn-preloader .loader-section.section-left {
   left: 0;
