@@ -375,7 +375,7 @@ span {
   .about .about-img2 {
     -webkit-transform: rotate(0deg) !important;
             transform: rotate(0deg) !important;
-    margin: 59px 0 0px calc(2vw + 65px) !important;
+    margin: 59px 0 0px calc(2vw + 82px) !important;
   }
 }
 .about .about-img2:hover {
