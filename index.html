@@ -1,213 +1,1164 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saltee Splendora</title>
+    <link rel="icon" type="image/x-icon" href="/icons/favicon.png">
+    <!-- ======================fonts================================= -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display:wght@400;600;700&display=swap"
         rel="stylesheet">
-
-
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <!-- Line awesome -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Libre+Baskerville:wght@400;700&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kristi&display=swap" rel="stylesheet">
+    <!-- ====================line awsome======================================= -->
     <link rel="stylesheet"
-        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+        href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" />
+    <!-- ======================boostrap css=================== -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ======================owl carrousel css==================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <!-- ==========================================magnific popup css=============================== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
-        integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
-    <!-- Style Sheet -->
+    <!-- ==========================================aos css================================ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- =============================custom css====================== -->
     <link rel="stylesheet" href="css/custom.css">
+   
 
-    <title>Godrej</title>
 </head>
 
 <body>
-    <!-- <h1>Hello, world!</h1> -->
 
-    <div class="main-nav">
-        <div class="navtop">
-            <div class="container">
-                <div class="navtop-outer">
-                    <div class="navtop-left">
-                        <div class="navtop-inner">
-                            <a href="#">
-                                <i class="lab la-facebook-f"></i>
+
+    <div class="overflow-hidden">
+
+        <!-- Preloader start -->
+        <section class="preload">
+            <div id="preloader">
+                <div id="ctn-preloader" class="ctn-preloader">
+                    <div class="animation-preloader text-center">
+                        <!-- <div class="spinner">
+            <img src="img/loader.webp" class="img-fluid" alt="">
+          </div> -->
+                        <img src="img/logo2.webp" alt="">
+                        <div class="d-flex mt-4">
+                            <!-- <div class="txt-loading me-md-5">
+              <span data-text-preloader="S" class="letters-loading">
+               D
+              </span>
+
+              <span data-text-preloader="C" class="letters-loading">
+                C
+              </span>
+
+              <span data-text-preloader="A" class="letters-loading">
+                A
+              </span>
+
+              <span data-text-preloader="R" class="letters-loading">
+                R
+              </span>
+
+              <span data-text-preloader="L" class="letters-loading">
+                L
+              </span>
+
+              <span data-text-preloader="E" class="letters-loading">
+                E
+              </span>
+
+              <span data-text-preloader="T" class="letters-loading">
+                T
+              </span>
+            </div> -->
+                            <br>
+                            <div class="txt-loading">
+                                <span data-text-preloader="L" class="letters-loading">
+                                    L
+                                </span>
+
+                                <span data-text-preloader="O" class="letters-loading">
+                                    O
+                                </span>
+
+                                <span data-text-preloader="A" class="letters-loading">
+                                    A
+                                </span>
+
+                                <span data-text-preloader="D" class="letters-loading">
+                                    D
+                                </span>
+
+                                <span data-text-preloader="I" class="letters-loading">
+                                    I
+                                </span>
+
+                                <span data-text-preloader="N" class="letters-loading">
+                                    N
+                                </span>
+
+                                <span data-text-preloader="G" class="letters-loading">
+                                    G
+                                </span>
+                                <span data-text-preloader="." class="letters-loading">
+                                    .
+                                </span>
+                                <span data-text-preloader="." class="letters-loading">
+                                    .
+                                </span>
+                                <span data-text-preloader="." class="letters-loading">
+                                    .
+                                </span>
+                                <span data-text-preloader="." class="letters-loading">
+                                    .
+                                </span>
+                                <span data-text-preloader="." class="letters-loading">
+                                    .
+                                </span>
+                                <span data-text-preloader="." class="letters-loading">
+                                    .
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="loader-section section-left"></div>
+                    <div class="loader-section section-right"></div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="banner" id="home">
+            <div class="nav-bar-custom">
+
+                <nav class="navbar navbar-expand-md fixed-top " aria-label="e">
+                    <div class="container px-md-3 mx-md-auto">
+                        <a class="navbar-brand d-block d-md-none " href="#"> <img class="bi me-2 logo"
+                                height="auto" src="img/logo2.webp">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-md-between" id="navbarsExample04">
+                            <a href="/"
+                                class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none">
+                                <img class="bi me-2 logo d-none d-sm-block" width="150" height="auto"
+                                    src="img/logo2.webp">
                             </a>
-                            <a href="#">
-                                <i class="lab la-instagram"></i>
-                            </a>
-                            <a href="#">
-                                <i class="lab la-twitter"></i>
-                            </a>
-                            <a href="#">
-                                <i class="lab la-youtube"></i>
-                            </a>
+
+                            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                                <li><a href="#home" class="nav-link px-3 link-secondary">Home</a></li>
+                                <li><a href="#overview" class="nav-link px-3 link-dark">Overview</a></li>
+                                <li><a href="#floor plan" class="nav-link px-3 link-dark">Floor Plan</a></li>
+                                <li><a href="#gallery" class="nav-link px-3 link-dark">Gallery</a></li>
+                                <li><a href="#amenities" class="nav-link px-3 link-dark">Amenities</a></li>
+                                <li><a href="#Proximities" class="nav-link px-3 link-dark">Proximities</a></li>
+                                <li><a href="#contact" class="nav-link px-3 link-dark">Contact Us</a></li>
+
+                            </ul>
+
+                            <div class="col-md-3 mx-3 text-md-end text-center">
+                                <button type="button" class="btn btn-primary diagonal " data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Download Brochure</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="navtop-right">
-                        <div class="navtop-inner">
-                            <div class="navtop-inner-content">
-                                <div class="icon">
-                                    <i class="las la-clock"></i>
-                                </div>
+                </nav>
+                <!-- <header
+                    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-1 mb-4 ">
+                    <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                        <img class="bi me-2" width="100" height="auto" src="img/logo2.webp">
+
+                        </svg>
+                    </a>
+
+                    <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                        <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+                        <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
+                        <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+                        <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+                    </ul>
+
+                    <div class="col-md-3 text-end">
+                        <button type="button" class="btn btn-primary diagonal ">Enquire Now</button>
+                    </div>
+                </header> -->
+
+            </div>
+
+            <div class="container">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-md-8 text-center banner-text">
+                        <h4 class="cursive-text" data-aos="fade-up">Welcome to
+                        </h4>
+                        <h1 class="big-heading text-uppercase" data-aos="fade-up">saltee
+                            <br> Splendora
+                        </h1>
+                        <h4 class="mt-3" style="color: #fff;">Price starting from 75 Lakhs onwards
+                        </h4>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+
+                    <div class="col-md-4 text-center pt-4">
+                        <button type="button" class="btn btn-primary me-2  diagonal" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" data-aos="fade-up">Enquire Now</button>
+
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+
+                    <div class="col-md-3 text-center">
+                        <a href="#overview"><i class="las la-angle-double-down down-arrow"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+        <section class="about section-gap" id="overview">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" data-aos="fade-right">
+                        <div class="about-text">
+                            <p class="h2-top-txt">Project Overview</p>
+                            <h2>
+                                WELCOME TO SAlTEE SPLENDORA
+                            </h2>
+                            <p> Spacious rooms, luxurious facilities, and
+                                beautiful ambiance– Is that what you look for in your new home?
+                                Embrace luxurious living with Saltee Splendora. Choose from our 3 or 4 BHK apartments
+                                each measuring 1485 to 2406 sq. ft. Get possession of your dream home by December 2022.
+                            </p>
+                            <p>Whether reaching work on time or planning a fun weekend with your family, everything
+                                becomes so easy when you live in a home that is well connected to all major locations of
+                                the city. Located on Rajarhat Expressway, Saltee Splendora is the ideal home you have
+                                always wished for.
+                            </p>
+                            <p>A modern urban lifestyle needs much more than
+                                beautiful rooms. You also need a space where you can nurture your soul, take care of
+                                your body, and connect with like-minded people. Saltee Splendora brings to you all the
+                                amenities that will make every day luxurious!
                                 <p>
-                                    <a href="#">
-                                        Mon - Sat 8:00 - 18:00
-                                    </a>
-                                </p>
+
+                                    <div class="cta pb-4 pb-md-1">
+                                        <button type="button" class="btn btn-secondary me-2 " data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">Enquire Now</button>
+
+                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about-img ">
+                            <div class="">
+                                <div class="item" data-aos="flip-right">
+                                    <img class="img-fluid" src="img/banner2.webp" alt="">
+                                    <img class="about-img2 img-fluid" src="img/image-004.jpg" alt="">
+
+                                </div>
+                                <!-- <div class="item">
+                                <img class="img-fluid" src="img/about.webp" alt="">
+
                             </div>
-                            <div class="navtop-inner-content">
-                                <div class="icon">
-                                    <i class="las la-envelope"></i>
-                                </div>
-                                <p>
-                                    <a href="mailto:sales@nkrealtors.com">
-                                        sales@nkrealtors.com
-                                    </a>
-                                </p>
+                            <div class="item">
+                                <img class="img-fluid" src="img/about.webp" alt="">
+
+                            </div> -->
+
                             </div>
-                            <div class="navtop-inner-content">
-                                <div class="icon">
-                                    <i class="las la-phone"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="bar-line"></div>
+
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-2 col-6" data-aos="zoom-in">
+                        <div class="row value-card">
+                            <div class="col-md-auto"><img style="width:50px ;" src="icons/calendar.png"></div>
+                            <div class="col-md-6 p-1">
+                                <span>Dec 2022</span>
+                                <p>Possession</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6" data-aos="zoom-in">
+                        <div class="row value-card">
+                            <div class="col-md-auto "><img style="width:60px ;" src="icons/stairs.png"></div>
+                            <div class="col-md-6 p-1">
+                                <span>G+7</span>
+                                <p>Elevation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="row value-card">
+                            <div class="col-md-auto"><img style="width:60px ;" src="icons/tower-block.png"></div>
+                            <div class="col-md-6 p-1">
+                                <span>5</span>
+                                <p>Towers</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="row value-card">
+                            <div class="col-md-auto"><img style="width:60px ;" src="icons/blueprint.png"></div>
+                            <div class="col-md-6 p-1">
+                                <span>3/4 BHK </span>
+                                <p>Room</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="row value-card">
+                            <div class="col-md-auto px-2"><img style="width:60px ;" src="icons/apartment.png"></div>
+                            <div class="col-md-6 p-1">
+                                <span>63</span>
+                                <p>Apartments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="wave-svg m-3t">
+
+
+            <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 150" version="1.1"
+                xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                        <stop stop-color="rgba(238, 233, 198, 1)" offset="0%"></stop>
+                        <stop stop-color="rgba(238, 233, 198, 1)" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                    d="M0,15L10,32.5C20,50,40,85,60,92.5C80,100,100,80,120,75C140,70,160,80,180,72.5C200,65,220,40,240,37.5C260,35,280,55,300,72.5C320,90,340,105,360,100C380,95,400,70,420,67.5C440,65,460,85,480,92.5C500,100,520,95,540,87.5C560,80,580,70,600,72.5C620,75,640,90,660,87.5C680,85,700,65,720,47.5C740,30,760,15,780,30C800,45,820,90,840,105C860,120,880,105,900,82.5C920,60,940,30,960,25C980,20,1000,40,1020,55C1040,70,1060,80,1080,77.5C1100,75,1120,60,1140,45C1160,30,1180,15,1200,20C1220,25,1240,50,1260,62.5C1280,75,1300,75,1320,70C1340,65,1360,55,1380,55C1400,55,1420,65,1430,70L1440,75L1440,150L1430,150C1420,150,1400,150,1380,150C1360,150,1340,150,1320,150C1300,150,1280,150,1260,150C1240,150,1220,150,1200,150C1180,150,1160,150,1140,150C1120,150,1100,150,1080,150C1060,150,1040,150,1020,150C1000,150,980,150,960,150C940,150,920,150,900,150C880,150,860,150,840,150C820,150,800,150,780,150C760,150,740,150,720,150C700,150,680,150,660,150C640,150,620,150,600,150C580,150,560,150,540,150C520,150,500,150,480,150C460,150,440,150,420,150C400,150,380,150,360,150C340,150,320,150,300,150C280,150,260,150,240,150C220,150,200,150,180,150C160,150,140,150,120,150C100,150,80,150,60,150C40,150,20,150,10,150L0,150Z">
+                </path>
+            </svg>
+
+
+        </div>
+
+
+        <!-- walkthrough -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-12 text-center">
+                        <p class="h2-top-txt" data-aos="fade-up">Here's a
+                            walkthrough of our project</p>
+                        <h2 data-aos="fade-up">
+                            walkthrough
+                        </h2>
+
+
+                    </div>
+                </div>
+            <!-- <h3 style="font-size:2.1rem;" class="mb-md-5 mb-4 text-center text-capitalize fw-bolder">Here's a
+                walkthrough of our project</h3> -->
+            <div class="d-grid justify-content-center " data-aos="fade-up">
+
+                <div class="video-box mb-2 mt-3">
+                    <img src="img/wallk.webp" class="img-fluid" alt="">
+                    <div class="lightbox-image popup-youtube  overlay-box">
+                        <span class="las la-play play " data-bs-toggle="modal" data-bs-target="#exampleModal3"><i
+                                class="las la-play "></i><i class="ripple "></i></span>
+                        <div class="text">
+
+                        </div>
+                    </div>
+                </div>
+                <!-- <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3> -->
+                <!-- <p>See our Walkthrough</p> -->
+
+            </div>
+
+
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
+                    <div class="modal-content border-0">
+
+                        <iframe style="height:500px;" class="w-100 fluid" id="youtube-frame" src=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="premium-amenites" data-aos="flip-right" id="amenities">
+            <div class="container">
+                <div class="row mb-5 ">
+                    <div class="col-md-12 text-center">
+                        <p class="h2-top-txt">Embrace Luxurious Living</p>
+                        <h2>
+                            Premium Amenities
+                        </h2>
+
+
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-6">
+                        <div class="amen-card">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <div class="amen">
+                                        <i class="las la-swimming-pool"></i>
+                                    </div>
                                 </div>
-                                <p>
-                                    <a href="tel:+91 983 001 1551">
-                                        +91 983 001 1551
-                                    </a>
-                                </p>
+                                <div class="flex-grow-1 ms-md-3 txt">
+                                    <h5>
+                                        Infinity Swimming Pool
+                                    </h5>
+                                    <p>Enjoy The Enthralling ‘Infinity' With Serenity!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <div class="amen-card">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <div class="amen">
+                                        <i class="lab la-pagelines"></i>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-md-3 txt">
+                                    <h5>
+                                        Terrace Garden
+                                    </h5>
+                                    <p>Rejuvenate Yourself With Nature </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <div class="amen-card">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <div class="amen">
+                                        <i class="las la-dumbbell"></i>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-md-3 txt">
+                                    <h5>
+                                        Gymnasium
+                                    </h5>
+                                    <p>Get Your Fitness Goal Achieved </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <div class="amen-card">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <div class="amen">
+                                        <i class="las la-table-tennis"></i>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-md-3 txt">
+                                    <h5>
+                                        Game Room
+                                    </h5>
+                                    <p>Dedicate Your Entertainment To This Room
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <div class="amen-card">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <div class="amen">
+                                        <i class="lar la-futbol"></i>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-md-3 txt">
+                                    <h5>
+                                        Children’s Play Area
+                                    </h5>
+                                    <p>The Perfect Place For Your Children To Play Around
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <div class="amen-card">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <div class="amen">
+                                        <i class="las la-users"></i>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-md-3 txt">
+                                    <h5>
+                                        Adda Zone
+                                    </h5>
+                                    <p>Recreational Zone For Socialising</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 col-6">
+                        <div class="amen-card">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <div class="amen">
+                                        <img style="width:30px ;" src="icons/garden-barbecue-.png">
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-md-3 txt">
+                                    <h5>
+                                        Barbecue lounge
+                                    </h5>
+                                    <p>Enjoy Barbecue Nights With Family
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <div class="amen-card">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <div class="amen">
+                                        <i class="las la-yin-yang"></i>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-md-3 txt">
+                                    <h5>
+                                        Yoga & Meditation Area
+                                    </h5>
+                                    <p>Beautiful Home; Beautiful You </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta text-center" data-aos="fade-up">
+                <button type="button" class="btn btn-secondary me-2 mb-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Enquire Now</button>
+
+            </div>
+
+        </section>
+
+        <section class="floor-plan" data-aos="fade-up-left" id="floor plan">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-12 text-center">
+                        <p class="h2-top-txt" data-aos="fade-up">Know Your Home</p>
+                        <h2 data-aos="fade-up">
+                            FLoor Plan
+                        </h2>
+
+
+                    </div>
+                </div>
+                <div class="row mt-5" data-aos="fade-up">
+                    <div class="col-md-10 mx-auto">
+                        <div class="tab-btn-list">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="tab-btn active" id="pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                        aria-selected="true">
+                                        Master Plan
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="tab-btn " id="pills-3b-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-3b" type="button" role="tab" aria-controls="pills-3b"
+                                        aria-selected="false">3BHK</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="tab-btn " id="pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-profile" type="button" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false">4BHK</button>
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="tab-content big-flor-tab" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+
+
+                                <div class="row justify-content-center">
+
+                                    <div class="" data-aos="zoom-in">
+                                        <div
+                                            class="tab-img mt-md-0 mt-4 owl-carousel floor-plan-carr  owl-theme popup-gallery-2">
+                                            <a href="img/masterplan.webp"><img class="item img-fluid"
+                                                    src="img/masterplan.webp" alt=""></a>
+                                            <!-- <img class="item img-fluid" src="img/3BHK-1260.webp" alt=""> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+
+                            <div class="tab-pane fade" id="pills-3b" role="tabpanel" aria-labelledby="pills-3b">
+
+                                <div class="row justify-content-center">
+
+                                    <div class="">
+                                        <div
+                                            class="tab-img mt-md-0 mt-4 owl-carousel floor-plan-carr  owl-theme popup-gallery-3">
+                                            <a href="img/3bhkb.webp"> <img class="item img-fluid" src="img/3bhkb.webp"
+                                                    alt="">
+                                            </a>
+                                            <a href="img/3bhkc.webp"> <img class="item img-fluid" src="img/3bhkc.webp"
+                                                    alt="">
+                                            </a>
+                                            <a href="img/3bhkd.webp"> <img class="item img-fluid" src="img/3bhkd.webp"
+                                                    alt="">
+                                            </a>
+
+
+                                            <a href="img/3bhkg.webp"> <img class="item img-fluid" src="img/3bhkg.webp"
+                                                    alt="">
+                                            </a>
+                                            <a href="img/3bhkh.webp"> <img class="item img-fluid" src="img/3bhkh.webp"
+                                                    alt="">
+                                            </a>
+                                            <a href="img/3bhki.webp"> <img class="item img-fluid" src="img/3bhki.webp"
+                                                    alt="">
+                                            </a>
+                                            <a href="img/4bhkf.webp"> <img class="item img-fluid" src="img/4bhkf.webp"
+                                                    alt="">
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+
+                                <div class="row justify-content-center">
+
+                                    <div class="">
+                                        <div
+                                            class="tab-img mt-md-0 mt-4 owl-carousel floor-plan-carr  owl-theme popup-gallery-4">
+                                            <a href="img/4bhka.webp"> <img class="item img-fluid" src="img/4bhka.webp"
+                                                    alt="">
+                                            </a>
+                                            <a href="img/4bhke.webp"> <img class="item img-fluid" src="img/4bhke.webp"
+                                                    alt="">
+                                            </a>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="carrousel-img pt-5 pb-1" id="gallery" data-aos="zoom-in">
+            <div class="container">
+                <div class="row mb-3 mb-md-5">
+                    <div class="col-md-12 text-center">
+                        <p class="h2-top-txt">A Glimpse of Your Dream Home
+
+                        </p>
+                        <h2>
+                            Project Gallery
+                        </h2>
+
+
+                    </div>
+                </div>
+                <div class="owl-carousel big-carrousel owl-theme popup-gallery-5">
+
+                    <a href="img/gym.webp"><img class="img-fluid item" src="img/gym.webp" alt=""></a>
+                    <a href="img/banner2.webp"><img class="img-fluid item" src="img/banner2.webp" alt=""></a>
+                    <a href="img/about-1.webp"><img class="img-fluid item" src="img/about-1.webp" alt=""></a>
+                    <a href="img/banner.webp"><img class="img-fluid item" src="img/banner.webp" alt=""></a>
+
+                </div>
+                <div class="cta text-center mb-md-4 mb-2" data-aos="fade-up">
+                    <button type="button" class="btn btn-secondary me-2 " data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Enquire Now</button>
+
+                </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <div class="m-3b">
+            <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 200" version="1.1"
+                xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                        <stop stop-color="rgba(14, 87, 126, 1)" offset="0%"></stop>
+                        <stop stop-color="rgba(14, 87, 126, 1)" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                    d="M0,100L12,110C24,120,48,140,72,150C96,160,120,160,144,133.3C168,107,192,53,216,46.7C240,40,264,80,288,80C312,80,336,40,360,40C384,40,408,80,432,96.7C456,113,480,107,504,90C528,73,552,47,576,53.3C600,60,624,100,648,123.3C672,147,696,153,720,150C744,147,768,133,792,106.7C816,80,840,40,864,36.7C888,33,912,67,936,96.7C960,127,984,153,1008,143.3C1032,133,1056,87,1080,80C1104,73,1128,107,1152,106.7C1176,107,1200,73,1224,73.3C1248,73,1272,107,1296,106.7C1320,107,1344,73,1368,66.7C1392,60,1416,80,1440,93.3C1464,107,1488,113,1512,106.7C1536,100,1560,80,1584,80C1608,80,1632,100,1656,116.7C1680,133,1704,147,1716,153.3L1728,160L1728,200L1716,200C1704,200,1680,200,1656,200C1632,200,1608,200,1584,200C1560,200,1536,200,1512,200C1488,200,1464,200,1440,200C1416,200,1392,200,1368,200C1344,200,1320,200,1296,200C1272,200,1248,200,1224,200C1200,200,1176,200,1152,200C1128,200,1104,200,1080,200C1056,200,1032,200,1008,200C984,200,960,200,936,200C912,200,888,200,864,200C840,200,816,200,792,200C768,200,744,200,720,200C696,200,672,200,648,200C624,200,600,200,576,200C552,200,528,200,504,200C480,200,456,200,432,200C408,200,384,200,360,200C336,200,312,200,288,200C264,200,240,200,216,200C192,200,168,200,144,200C120,200,96,200,72,200C48,200,24,200,12,200L0,200Z">
+                </path>
+            </svg>
+        </div>
+
+
+        <section class="map" id="Proximities">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-12 text-center">
+                        <p class="h2-top-txt" data-aos="fade-up">Located Close To All Facilities
+                        </p>
+                        <h2 data-aos="fade-up">
+                            KNOW YOUR NEIGHBOURHOOD
+                        </h2>
+
+                        <p class="main-text">
+                            Whether reaching work on time or planning a fun weekend with your family, everything becomes
+                            so easy when you live in a home that is well connected to all major locations of the city.
+                            Located on Rajarhat Expressway, Saltee Splendora is the ideal home you have always wished
+                            for.
+                        </p>
+
+
+                    </div>
+                </div>
+                <div class="map-li py-3">
+                    <div class="row justify-content-center pb-5 ">
+                        <div class="col-md-3 row ">
+
+                            <div class="col-md-12 col-6">
+                                <div class="row mb-4">
+                                    <div class="col-md-3 col-12 ">
+                                        <img width="70px" height="60px" src="icons/healthcare.png">
+                                    </div>
+                                    <div class="col-md-9 col-12 px-3">
+                                        <span>Healthcare</span>
+                                        <h4>Tata Cancer Hospital
+                                        </h4>
+                                        <h4>Disha Eye Hospital, Newtown
+                                        </h4>
+                                        <h4>Vidyasagar Matrisadan Hospital
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-6">
+                                <div class="row align-items-center  mb-5">
+                                    <div class="col-md-3 col-12 ">
+                                        <img width="60px" height="60px" src="icons/train.png">
+                                    </div>
+                                    <div class="col-md-9 col-12 px-3">
+                                        <span>Transport</span>
+                                        <h4>Kolkata International Airport</h4>
+                                        <h4>Express Way Rajarhat</h4>
+                                        <h4>Dum Dum Cantonment</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1"></div>
+                        <div class="col-md-3 row">
+                            <div class="col-md-12 col-6">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3 col-12 ">
+                                        <img width="60px" height="60px" src="icons/cinema.png">
+                                    </div>
+                                    <div class="col-md-9 col-12 px-3">
+                                        <span>Entertainment</span>
+
+                                        <h4 class="text">City Centre II </h4>
+
+
+                                        <h4 class="text">Eco Park</h4>
+                                        <h4 class="text">Axis Mall</h4>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-12 col-6">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3 col-12">
+                                        <img width="60px" height="60px" src="icons/book.png">
+                                    </div>
+                                    <div class="col-md-9 col-12 px-3">
+                                        <span>Education</span>
+                                        <h4>Narayana School
+                                        </h4>
+                                        <h4>DPS Newtown
+                                        </h4>
+                                        <h4>DPS Megacity</h4>
+                                        <h4>New Town School
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+            <div class="cta text-center pb-5" data-aos="fade-up">
+                <button type="button" class="btn btn-secondary me-2 " data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Enquire Now</button>
+
+            </div>
+
+        </section>
+
+
+
+
+        <section class="location-gmap  py-5 pb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="h2-top-txt" data-aos="fade-up">Find Us Here</p>
+                        <h2 data-aos="fade-up">
+                            Location
+                        </h2>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="iframe-map my-4 mb-0" data-aos="zoom-in">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14730.039190369484!2d88.4628575!3d22.6347736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc04996fcf4f6cbab!2sSaltee%20Splendora!5e0!3m2!1sen!2sin!4v1652435907054!5m2!1sen!2sin"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </section>
+
+
+        <section class="contact-us pt-5 pb-5 mb-5" id="contact">
+            <p class="text-center">Get in touch</p>
+            <h2 class="text-center pb-5">Contact us</h2>
+            <div class="container">
+
+                <div class="row align-items-center h-100 g-3 justify-content-between">
+                    <div class="col-md-6">
+                        <form id="contactus" action="" method="post">
+
+                            <fieldset> <input placeholder="Name" type="text" tabindex="1" required>
+                            </fieldset>
+                            <fieldset> <input placeholder="Email Address" type="email" tabindex="2" required>
+                            </fieldset>
+                            <fieldset> <input placeholder="Phone Number" type="tel" tabindex="3" required> </fieldset>
+                            <fieldset> <textarea placeholder="Type your message here..." tabindex="5"
+                                    required></textarea> </fieldset>
+                            <fieldset> <button name="submit" type="submit" id="contactus-submit"
+                                    data-submit="...Sending"><i id="icon" class=""></i> Enquiry Now</button> </fieldset>
+                        </form>
+                    </div>
+
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="img/banner-1.webp">
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Button trigger modal
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+        <!-- Modal Enquire -->
+        <div class="modal fade enquire-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+
+                    <div class="container-fluid g-0 pe-md-3">
+                        <div class="row">
+                            <div class="col-md-8 ">
+                                <img class="img-fluid modal-ban" src="img/banner-1.webp" alt="">
+                            </div>
+                            <div class="col-md-4 py-md-4 my-md-3 my-1 py-2">
+                                <div class="form">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <!-- <h3>Level up your brand</h3>
+                                      <p>You can reach us anytime via <a href="mailto:info@scarletsplendour.com">info@scarletsplendour.com</a> </p> -->
+                                            <h3>Get a call back</h3>
+
+                                        </div>
+                                    </div>
+                                    <form>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="mb-md-3 mb-1">
+
+                                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                                        aria-describedby="emailHelp" placeholder="First Name">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-md-3 mb-1">
+
+                                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                                        aria-describedby="emailHelp" placeholder="last Name">
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="mb-md-3 mb-1">
+
+                                            <input type="Number" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Enter Your Mobile Number*">
+
+                                        </div>
+                                        <div class="mb-md-3 mb-1">
+
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Enter Your Email">
+
+                                        </div>
+                                        <div class="mb-md-3 mb-1">
+
+                                            <select class=" form-control form-select"
+                                                aria-label="Default select example">
+                                                <option selected>Select Flat type</option>
+                                                <option value="1">3BHK</option>
+                                                <option value="1">4BHK</option>
+
+
+                                            </select>
+
+                                        </div>
+
+                                        <div class="mb-3">
+
+                                            <textarea class="form-control" name="" id="" cols="30" rows="3"
+                                                placeholder="Send Us a Message"></textarea>
+
+                                        </div>
+
+                                        <!-- <div class="mb-3 form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <label class="form-check-label" for="exampleCheck1">Terms</label>
+                                  </div> -->
+                                        <div class="d-grid">
+                                            <button type="submit" class="btn btn-secondary">Enquire Now</button>
+                                        </div>
+
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="images/sw-logo.png" style="width: 150px;" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#overview">Overview</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#about">About Us</a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#floor-plan">Floor Plan</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#gallery">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#amenity">Amenities</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#location">Location</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
     </div>
+    <!-- Modal download brochure -->
+    <div class="modal fade enquire-modal" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 
 
 
-    <div class="banner">
-        <div class="container">
-            <div class="banner-outer">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="banner-left">
-                            <div class="banner-left-inner">
-                                <h1>
-                                    <span>Luxury & Premium</span>
-                                    Residence Flat
-                                </h1>
-                                <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A non enim facilis
-                                    corrupti aliquam. Itaque ipsa maxime neque perferendis repudiandae corporis totam
-                                    quas minima dolorum.
-                                </p>
-                                <div class="button-container  py-3">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="mb-3">
-                                        GET A CONSULTATION
-                                    </a>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1">DOWNLOAD BROCHURE</a>
-                                </div>
-                              
-                            </div>
+                <div class="container-fluid g-0 pe-md-3">
+                    <div class="row">
+                        <div class="col-md-8 ">
+                            <img class="img-fluid modal-ban" src="img/2.webp" alt="">
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="banner-right">
-                            <div class="banner-right-inner">
-                                <form action="">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="" id=""
-                                            placeholder="Your Full Name">
+                        <div class="col-md-4 py-md-4 my-md-3 my-1 py-2">
+                            <div class="form">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <!-- <h3>Level up your brand</h3>
+                                      <p>You can reach us anytime via <a href="mailto:info@scarletsplendour.com">info@scarletsplendour.com</a> </p> -->
+                                        <h3>Download the Brochure</h3>
+
                                     </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" name="" id=""
-                                            placeholder="Your Email Address">
+                                </div>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="mb-md-3 mb-1">
+
+                                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp" placeholder="First Name">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-md-3 mb-1">
+
+                                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp" placeholder="last Name">
+
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <input type="tel" class="form-control" name="" id=""
-                                            placeholder="Your Phone Number">
+                                    <div class="mb-md-3 mb-1">
+
+                                        <input type="Number" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Your Mobile Number*">
+
                                     </div>
-                                    <div class="form-group">
-                                        <select name="" id="" class="form-control" style="color: #fff;">
-                                            <option value="">Choose</option>
-                                            <option value="">2</option>
-                                            <option value="">3</option>
-                                            <option value="">4</option>
+                                    <div class="mb-md-3 mb-1">
+
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Your Email">
+
+                                    </div>
+                                    <!-- <div class="mb-3">
+
+                                        <select class=" form-control form-select" aria-label="Default select example">
+                                            <option selected>Select Flat type</option>
+                                            <option value="1">3BHK+3T</option>
+                                            <option value="1">3BHK+2T</option>
+                                            <option value="2">2BHK+2T</option>
+
                                         </select>
+
+                                    </div> -->
+
+                                    <div class="mb-md-3 mb-1">
+
+                                        <textarea class="form-control" name="" id="" cols="30" rows="3"
+                                            placeholder="Send Us a Message"></textarea>
+
                                     </div>
-                                    <div class="form-group">
-                                        <textarea name="" id="" class="form-control" cols="50" rows="3"
-                                            placeholder="Your Enquiry Text"></textarea>
+
+                                    <!-- <div class="mb-3 form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <label class="form-check-label" for="exampleCheck1">Terms</label>
+                                  </div> -->
+                                    <div class="d-grid">
+                                        <button type="submit" class="btn btn-secondary">Download</button>
                                     </div>
-                                    <div class="form-group callback-btn text-center">
-                                        <button type="submit">GET A CALLBACK</button>
-                                    </div>
+
                                 </form>
                             </div>
                         </div>
@@ -217,857 +1168,370 @@
         </div>
     </div>
 
+    <div class="call-btn float-end">
+        <a class="btn btn-secondary what" href="https://wa.me/+8584881807"><i class="lab la-whatsapp"></i>Whatsapp</a>
+        <a class="btn btn-secondary" href="tel:+9831148100"><i class="las la-phone me-3"></i>9831148100</a>
+    </div>
 
-    <div class="about padtop" id="overview">
+    <section class="footer" data-aos="fade-up">
+
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3>
-                        OVERVIEW
-                    </h3>
-                    <h2>
-                        What We Provide
-                    </h2>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-md-3">
-                    <div class="about-left">
-                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
-                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="about-mid">
-                        <img src="https://via.placeholder.com/300x620" class="img-fluid" alt="">
-                    </div>
-                </div>
+            <div class="row align-items-start mt-md-4">
                 <div class="col-md-6">
-                    <div class="about-right">
-                        <div class="about-right-heading">
-                            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-                        </div>
-                        <div class="about-right-para">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum soluta similique ratione
-                                labore delectus nobis rem odit possimus earum ea!</p>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                            </ul>
-                        </div>
-                        <div class="about-right-carousel">
-                            <div class="owl-carousel about-carousel owl-theme">
-                                <div class="item">
-                                    <a href="https://via.placeholder.com/300x200">
-                                        <img class="img-fluid" src="https://via.placeholder.com/300x200" alt=""></a>
-                                </div>
-                                <div class="item">
-                                    <a href="https://via.placeholder.com/300x200">
-                                        <img class="img-fluid" src="https://via.placeholder.com/300x200" alt=""></a>
-                                </div>
-                                <div class="item">
-                                    <a href="https://via.placeholder.com/300x200">
-                                        <img class="img-fluid" src="https://via.placeholder.com/300x200" alt=""></a>
-                                </div>
-                                <div class="item">
-                                    <a href="https://via.placeholder.com/300x200">
-                                        <img class="img-fluid" src="https://via.placeholder.com/300x200" alt=""></a>
-                                </div>
-                                <div class="item">
-                                    <a href="https://via.placeholder.com/300x200">
-                                        <img class="img-fluid" src="https://via.placeholder.com/300x200" alt=""></a>
-                                </div>
-                                <div class="item">
-                                    <a href="https://via.placeholder.com/300x200">
-                                        <img class="img-fluid" src="https://via.placeholder.com/300x200" alt=""></a>
-                                </div>
-                                <div class="item">
-                                    <a href="https://via.placeholder.com/300x200">
-                                        <img class="img-fluid" src="https://via.placeholder.com/300x200" alt=""></a>
-                                </div>
-                                <div class="item">
-                                    <a href="https://via.placeholder.com/300x200">
-                                        <img class="img-fluid" src="https://via.placeholder.com/300x200" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="button-container mt-4">
-                            <a href="#" class="p-btn mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal" >
-                                GET A CONSULTATION
-                            </a>
-                            <a href="#" class="p-btn" data-bs-toggle="modal" data-bs-target="#exampleModal1">DOWNLOAD
-                                BROCHURE</a>
-                        </div>
+                    <!-- <div class="footer-logo">
+                        <img class="img-fluid" src="img/dtc-southern-heights-logo2.webp" alt="">
+                    </div> -->
+                    <h3 data-aos="fade-up" class="sm-mt-5">
+                        About Saltee Splendora
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="yt-video padtop padbot">
-        <div class="container">
-            <h3 class="">Wallk Through</h3>
-            <h2 class="py-2">we are the best</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/W0BxZ9f0c_M"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="amenities padtop" id="amenity">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3>
-                        Amenities
                     </h3>
-                    <h2>
-                        What We Provide
-                    </h2>
+                    <p data-aos="fade-up">Over the past 25 years, Saltee has earned the
+                        reputation of being the most promising real estate developer in West Bengal by constantly
+                        delivering noteworthy projects. It has been providing the new age real estate solutions
+                        across all sections of society and became the preferred choice for residents of the City of
+                        Joy. Building on our experience and expertise, we are now ready with a pan-India growth
+                        strategy to deliver an unprecedented number of innovative projects in the upcoming years.
+                    </p>
+                </div>
+                <div class="col-md-2 offset-md-1">
+                    <div class="footer-menu">
+                        <h3 class=" text-md-start" > Menu Links</h3>
+                        <div class="">
+
+                            <div>
+                                <ul class="text-center text-md-start p-0">
+                                    <li><a href="#home" class=" px-3 link-secondary">Home</a></li>
+                                    <li><a href="#overview" class=" px-3 link-dark">Overview</a></li>
+                                    <li><a href="#floor plan" class="px-3 link-dark">Floor Plan</a></li>
+                                    <li><a href="#gallery" class="px-3 link-dark">Gallery</a></li>
+                                    <li><a href="#amenities" class="px-3 link-dark">Amenities</a></li>
+                                    <li><a href="#Proximities" class="nav-link px-3 link-dark">Proximities</a></li>
+                                    <li><a href="#contact" class="px-3 link-dark">Contact Us</a></li>
+    
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="add">
+                        <h3 data-aos="fade-up">Address</h3>
+                        <p data-aos="fade-up">18/63, Bablatala, Gopalpur I, Kolkata, West
+                            Bengal 700135</p>
+                        <a href="tel:+9831148100" data-aos="fade-up"><i class="las la-phone me-3"></i>9831148100</a><br>
+                        <a href="mailto:sales@salteegroup.com"><i
+                                class="las la-envelope me-3 mb-3"></i>sales@salteegroup.com</a><br>
+                        <a href="" class="btn btn-secondary">Enquire Now</a>
+                    </div>
+
                 </div>
             </div>
-            <div class="row mt-3">
+            <div class="line-foo"></div>
+            <div class="row copy">
                 <div class="col-md-12">
-                    <div class="owl-carousel amenities-carousel owl-theme">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="las la-city"></i>
-                            </div>
-                            <div class="heading">
-                                <h4>Lorem, ipsum dolor.</h4>
-                            </div>
-                            <div class="line">
-                            </div>
-                            <div class="text">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, culpa
-                                    necessitatibus.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="mt-4 text-center">
-                    <a href="#" class="p-btn mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        GET A CONSULTATION
-                    </a>
-                    <a href="#" class="p-btn" data-bs-toggle="modal" data-bs-target="#exampleModal1">DOWNLOAD
-                        BROCHURE</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="gallery padtop" id="gallery">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3>
-                        gallery
-                    </h3>
-                    <h2>
-                        Our Collection
-                    </h2>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-md-4">
-                    <div class="gallery-1">
-
-                        <a href="https://via.placeholder.com/400x300">
-                            <img class="w-100" src="https://via.placeholder.com/400x300" alt="">
-                            <a href="https://via.placeholder.com/400x300">
-                                <!-- <img class="img-fluid" src="https://via.placeholder.com/400x300" alt=""> -->
-                            </a>
-                            <a href="https://via.placeholder.com/400x300"></a>
-                            <a href="https://via.placeholder.com/400x300"></a>
-                            <a href="https://via.placeholder.com/400x300"></a>
-                            <a href="https://via.placeholder.com/400x300"></a>
-                        </a>
-                        <div class="content">
-                            <h4>Lorem, ipsum dolor.</h4>
-                            <p>Lorem, ipsum dolor.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="gallery-2">
-
-                        <a href="https://via.placeholder.com/400x300">
-                            <img class="w-100" src="https://via.placeholder.com/400x300" alt="">
-                            <a href="https://via.placeholder.com/400x300">
-                                <!-- <img class="img-fluid" src="https://via.placeholder.com/400x300" alt=""> -->
-                            </a>
-                            <a href="https://via.placeholder.com/400x300"></a>
-                            <a href="https://via.placeholder.com/400x300"></a>
-                            <a href="https://via.placeholder.com/400x300"></a>
-                            <a href="https://via.placeholder.com/400x300"></a>
-                        </a>
-                        <div class="content">
-                            <h4>Lorem, ipsum dolor.</h4>
-                            <p>Lorem, ipsum dolor.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="gallery-3">
-
-                        <a href="https://via.placeholder.com/400x300">
-                            <img class="w-100" src="https://via.placeholder.com/400x300" alt="">
-                            <a href="https://via.placeholder.com/400x300">
-                                <!-- <img class="img-fluid" src="https://via.placeholder.com/400x300" alt=""> -->
-                            </a>
-                            <a href="https://via.placeholder.com/400x300"></a>
-                            <a href="https://via.placeholder.com/400x300"></a>
-                            <a href="https://via.placeholder.com/400x300"></a>
-                            <a href="https://via.placeholder.com/400x300"></a>
-                        </a>
-                        <div class="content">
-                            <h4>Lorem, ipsum dolor.</h4>
-                            <p>Lorem, ipsum dolor.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row padtop">
-                <div class="col-md-6">
-                    <div class="gallery-4">
-
-                        <a href="https://via.placeholder.com/600x400">
-                            <img class="w-100" src="https://via.placeholder.com/600x400" alt="">
-                            <a href="https://via.placeholder.com/400x300">
-                                <!-- <img class="img-fluid" src="https://via.placeholder.com/400x300" alt=""> -->
-                            </a>
-                            <a href="https://via.placeholder.com/600x400"></a>
-                            <a href="https://via.placeholder.com/600x400"></a>
-                            <a href="https://via.placeholder.com/600x400"></a>
-                            <a href="https://via.placeholder.com/600x400"></a>
-                        </a>
-                        <div class="content">
-                            <h4>Lorem, ipsum dolor.</h4>
-                            <p>Lorem, ipsum dolor.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="gallery-5">
-
-                        <a href="https://via.placeholder.com/600x400">
-                            <img class="w-100" src="https://via.placeholder.com/600x400" alt="">
-                            <a href="https://via.placeholder.com/400x300">
-                                <!-- <img class="img-fluid" src="https://via.placeholder.com/400x300" alt=""> -->
-                            </a>
-                            <a href="https://via.placeholder.com/600x400"></a>
-                            <a href="https://via.placeholder.com/600x400"></a>
-                            <a href="https://via.placeholder.com/600x400"></a>
-                            <a href="https://via.placeholder.com/600x400"></a>
-                        </a>
-                        <div class="content">
-                            <h4>Lorem, ipsum dolor.</h4>
-                            <p>Lorem, ipsum dolor.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-md-12 text-center mt-4">
-                    <a href="#" class="p-btn mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        GET A CONSULTATION
-                    </a>
-                    <a href="#" class="p-btn" data-bs-toggle="modal" data-bs-target="#exampleModal1">DOWNLOAD
-                        BROCHURE</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="floor-plan padtop py-5 mt-5" id="floor-plan">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2>
-                        our plans
-                    </h2>
-                    <h3>See Our Living Spaces</h3>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-md-12 text-center button-container">
-                    <a href="#" class="p-btn mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        GET A CONSULTATION
-                    </a>
-                    <a href="#" class="p-btn" data-bs-toggle="modal" data-bs-target="#exampleModal1">DOWNLOAD
-                        BROCHURE</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="location padtop" id="location">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3>
-                        location
-                    </h3>
-                </div>
-            </div>
-            <div class="row g-0 mt-4">
-                <div class="col-md-12">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14754.591836693704!2d88.4142772!3d22.4046251!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb32a250eee014cfb!2sSouthwinds!5e0!3m2!1sen!2sin!4v1649925752935!5m2!1sen!2sin"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="feedback padtop padbot">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3>
-                        feedback
-                    </h3>
-                    <h2>
-                        Our Testimonials
-                    </h2>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-md-12">
-                    <div class="owl-carousel feedback-carousel owl-theme">
-                        <div class="item">
-                            <div class="head">
-                                <div class="profile-pic">
-                                    <img src="https://via.placeholder.com/80" class="img-fluid" alt="">
-                                </div>
-                                <div class="name">
-                                    <h4>Jason Brown</h4>
-                                    <p>Web Developer</p>
-                                </div>
-                                <div class="quote">
-                                    <i class="las la-quote-right"></i>
-                                </div>
-                            </div>
-                            <div class="text">
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi vitae hic odit
-                                    incidunt non placeat deserunt natus ea aliquid inventore."</p>
-                            </div>
-                        </div>
-
+                    <div class="d-flex justify-content-between">
+                        <a href="#">&#169; Copyright 2022</a>
+                        <!-- <a href="#">Terms & Conditions</a> -->
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="footer padtop">
-        <div class="container">
-            <div class="row flex-wrap">
-                <div class="col-md-3 footer-card">
-                    <div class="footer-left">
-
-                        <div class="footer-left-head">
-                            <a href="#">
-                                <img src="images/sw-logo.png" class="img-fluid" alt="">
-                            </a>
-                        </div>
-
-                        <div class="contact">
-                            <div class="contact-left">
-                                <i class="las la-phone"></i>
-                            </div>
-                            <div class="contact-right">
-                                <p>
-                                    <a href="tel:+91 983 001 1551">+91 983 001 1551</a>
-                                </p>
-                                <p>
-                                    <a href="tel:+91 983 001 1551">+91 983 001 1551</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="contact">
-                            <div class="contact-left">
-                                <i class="las la-envelope"></i>
-                            </div>
-                            <div class="contact-right">
-                                <p>
-                                    <a href="mailto:sales@nkrealtors.com">sales@nkrealtors.com</a>
-                                </p>
-                                <p>
-                                    <a href="mailto:">sales@nkrealtors.com</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="contact">
-                            <div class="contact-left">
-                                <i class="las la-map-marker-alt"></i>
-                            </div>
-                            <div class="contact-right">
-                                <p>
-                                    <a href="#">132 Ghoshal Para Road
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="#">South 24 Parganas</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 footer-card">
-                    <div class="quick-links">
-                        <div class="quick-links-head">
-                            <h4>
-                                Quick links
-                            </h4>
-                            <div class="line"></div>
-                        </div>
-                        <div class="quick-links-body">
-                            <p>
-                                <a href="#">
-                                    Home
-                                </a>
-                            </p>
-                            <p>
-                                <a href="#overview">
-                                    Overview
-                                </a>
-                            </p>
-                            <p>
-                                <a href="#gallery">
-                                    Gallery
-                                </a>
-                            </p>
-                            <p>
-                                <a href="#floor-plan">
-                                    Floor Plan
-                                </a>
-                            </p>
-                            <p>
-                                <a href="#amenity">
-                                    Amenities
-                                </a>
-                            </p>
-                            <p>
-                                <a href="#location">
-                                    Location
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 footer-card">
-                    <div class="footer-about">
-                        <h4>
-                            About Us
-                        </h4>
-                        <div class="line"></div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore soluta aperiam
-                            reprehenderit dolor quis animi, mollitia error adipisci ducimus deleniti ea sapiente
-                            pariatur facilis officiis veniam excepturi culpa, dolores et minima sed iure quidem?
-                            Suscipit odit deserunt eveniet ipsa laborum ad explicabo vitae dignissimos quam enim
-                            perspiciatis ipsam natus ullam vero aut quaerat, aperiam necessitatibus in expedita modi!
-                            Deserunt sapiente quaerat iusto accusantium itaque assumenda, nihil dolores ratione
-                            voluptatem ad, eaque velit. Vitae similique sint illo eos sapiente, porro modi.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="co-md-12">
-                    <div class="copyright">
-                        <div class="left">
-                            &copy; 2022 - All Right Reserved
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">GET A CONSULTATION</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form class="row g-3">
-                        <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">First Name *</label>
-                            <input type="email" class="form-control" id="inputFirstName4" placeholder="First Name"
-                                required>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputPassword4" class="form-label">Last Name *</label>
-                            <input type="password" class="form-control" id="inputlastName4" placeholder="Last Name"
-                                required>
-                        </div>
-                        <div class="col-12">
-                            <label for="inputAddress" class="form-label">Email *</label>
-                            <input type="Email" class="form-control" id="inputAddress" placeholder="Enter Your Email"
-                                required>
-                        </div>
-                        <div class="col-12">
-                            <label for="inputAddress2" class="form-label">Phone Number *</label>
-                            <input type="number" class="form-control" id="inputAddress2" placeholder="Enter Your Number"
-                                required>
-                        </div>
-                        <div class="col-12">
-                            <textarea class="form-control" placeholder="How can we help?"
-                                id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                        <div class="col-12 text-center">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Get Your Brochure</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form class="row g-3">
-                        <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">First Name *</label>
-                            <input type="email" class="form-control" id="inputFirstName4" placeholder="First Name"
-                                required>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputPassword4" class="form-label">Last Name *</label>
-                            <input type="password" class="form-control" id="inputlastName4" placeholder="Last Name"
-                                required>
-                        </div>
-                        <div class="col-12">
-                            <label for="inputAddress" class="form-label">Email *</label>
-                            <input type="Email" class="form-control" id="inputAddress" placeholder="Enter Your Email"
-                                required>
-                        </div>
-                        <div class="col-12">
-                            <label for="inputAddress2" class="form-label">Phone Number *</label>
-                            <input type="number" class="form-control" id="inputAddress2" placeholder="Enter Your Number"
-                                required>
-                        </div>
-                        <div class="col-12">
-                            <textarea class="form-control" placeholder="How can we help?"
-                                id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                        <div class="col-12 text-center">
-                            <button type="submit" class="btn btn-primary">Download Now</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
+    </section>
     </div>
 
 
 
 
-
-
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
+    <!-- ==============jquery====================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- ======================owl carrousel================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-        $('.about-carousel').owlCarousel({
+        AOS.init({
+            offset: 160,
+            duration: 1000
+        });
+    </script>
+    <script>
+        $('.about_carrousel').owlCarousel({
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
             loop: true,
             margin: 10,
-            dots: false,
             autoplay: true,
             autoplayTimeout: 3000,
-            // items: 3,
-            center: true,
-            responsiveClass: true,
+            nav: false,
+            dot: false,
             responsive: {
                 0: {
-                    items: 1,
-                    nav: false
+                    items: 1
                 },
-                800: {
-                    items: 2,
-                    nav: false
+                600: {
+                    items: 1
                 },
                 1000: {
-                    items: 3,
-                    nav: false,
-                    loop: true
+                    items: 1
                 }
             }
         })
     </script>
     <script>
-        $('.amenities-carousel').owlCarousel({
+        $('.amenitie_carrousel').owlCarousel({
+
             loop: true,
             margin: 10,
-            dots: false,
             autoplay: true,
             autoplayTimeout: 3000,
-            // items: 3,
-            center: true,
-            responsiveClass: true,
+            nav: false,
+            dot: false,
             responsive: {
                 0: {
-                    items: 1,
-                    nav: false
+                    items: 1
                 },
-                800: {
-                    items: 2,
-                    nav: false
+                600: {
+                    items: 3
                 },
                 1000: {
-                    items: 3,
-                    nav: false,
-                    loop: true
+                    items: 4
                 }
             }
         })
     </script>
     <script>
-        $('.feedback-carousel').owlCarousel({
+        $('.big-carrousel').owlCarousel({
+
             loop: true,
             margin: 10,
-            dots: true,
             autoplay: true,
             autoplayTimeout: 3000,
-            // items: 3,
-            center: true,
-            responsiveClass: true,
+            nav: false,
+            dot: false,
             responsive: {
                 0: {
-                    items: 1,
-                    nav: false
+                    items: 1
                 },
-                800: {
-                    items: 1,
-                    nav: false
+                600: {
+                    items: 1
                 },
                 1000: {
-                    items: 3,
-                    nav: false,
-                    loop: true
+                    items: 1
+                }
+            }
+        })
+    </script>
+    <script>
+        $('.testimonial-carr').owlCarousel({
+
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            margin: 10,
+            nav: false,
+            dot: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        })
+    </script>
+    <script>
+        $('.floor-plan-carr').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            margin: 10,
+            nav: false,
+            dot: false,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
                 }
             }
         })
     </script>
 
+    <script>
+        $(document).ready(function () {
+            $(" .play").click(function (t) {
+                $("#youtube-frame").attr("src",
+                    "https://www.youtube.com/embed/omr4gyFmLL4?autoplay=1&mute=1")
+            })
+        });
+    </script>
+    <!-- =========================bootsrtap js=============================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+   
 
-
-
+    <!-- =================================magnific js=================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.popup-gallery-1').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Loading image #%curr%...',
+                mainClass: 'mfp-img-mobile',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+                },
+                image: {
+                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                    titleSrc: function (item) {
+                        return item.el.attr('title');
+                    }
+                }
+            });
+            $('.popup-gallery-2').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Loading image #%curr%...',
+                mainClass: 'mfp-img-mobile',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+                },
+                image: {
+                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                    titleSrc: function (item) {
+                        return item.el.attr('title');
+                    }
+                }
+            });
+            $('.popup-gallery-3').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Loading image #%curr%...',
+                mainClass: 'mfp-img-mobile',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+                },
+                image: {
+                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                    titleSrc: function (item) {
+                        return item.el.attr('title');
+                    }
+                }
+            });
+            $('.popup-gallery-4').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Loading image #%curr%...',
+                mainClass: 'mfp-img-mobile',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+                },
+                image: {
+                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                    titleSrc: function (item) {
+                        return item.el.attr('title');
+                    }
+                }
+            });
+            $('.popup-gallery-5').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Loading image #%curr%...',
+                mainClass: 'mfp-img-mobile',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+                },
+                image: {
+                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                    titleSrc: function (item) {
+                        return item.el.attr('title');
+                    }
+                }
+            });
+        });
+    </script>
+    <!-- ====================sticky nav========================= -->
     <script>
         $(document).ready(function () {
             $(window).bind('scroll', function () {
                 var navHeight = $('nav').height();
                 if ($(window).scrollTop() > navHeight) {
-                    $('.navtop').addClass('d-height');
-                    $('.navbar').addClass('primary-bg');
-                    // $('.logo').attr("src", 'img/logo.png');
-                    // $('.la-bars').css('color', '#000');
+                    $('nav').addClass('fixed-nav');
+                    $('.logo').attr("src", 'img/logo.webp');
+                    $('.la-bars').css('color', '#000');
 
-                }
-                else {
-                    $('.navtop').removeClass('d-height');
-                    $('.navbar').removeClass('primary-bg');
-                    // $('.logo').attr("src", 'img/dtc-southern-heights-logo2.png');
-                    // $('.la-bars').css('color', '#fff');
+                } else {
+                    $('nav').removeClass('fixed-nav');
+                    $('.logo').attr("src", 'img/logo2.webp');
+                    $('.la-bars').css('color', '#fff');
                 }
             });
 
-            // $('.navbar-toggler-icon').html('<i class="las la-bars"></i>');
+            $('.navbar-toggler-icon').html('<i class="las la-bars"></i>');
 
 
 
 
         });
+        // =======================magnificPopup video===========================
     </script>
 
+    <!-- ====================navbar close on click========================= -->
+    <script>
+        var mq = window.matchMedia("(max-width: 570px)");
+        if (mq.matches) {
+            // window width is at less than 570px
+            const navLinks = document.querySelectorAll('.nav-link')
+            const menuToggle = document.getElementById('navbarsExample04')
+            const bsCollapse = new bootstrap.Collapse(menuToggle, {
+                toggle: false
+            })
+            navLinks.forEach((l) => {
+                l.addEventListener('click', () => {
+                    bsCollapse.toggle()
+                })
+            })
 
-
-    <!-- =================================magnific js=================================== -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"
-        integrity="sha512-C1zvdb9R55RAkl6xCLTPt+Wmcz6s+ccOvcr6G57lbm8M2fbgn2SUjUJbQ13fEyjuLViwe97uJvwa1EUf4F1Akw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        }
+    </script>
+    <!-- ===========================preloader====================== -->
     <script>
         $(document).ready(function () {
-            $('.about-carousel').magnificPopup({
-                delegate: 'a',
-                type: 'image',
-                tLoading: 'Loading image #%curr%...',
-                mainClass: 'mfp-img-mobile',
-                gallery: {
-                    enabled: true,
-                    navigateByImgClick: true,
-                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-                },
-                image: {
-                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-                    titleSrc: function (item) {
-                        return item.el.attr('title');
-                    }
+
+            setTimeout(function () {
+                $('#ctn-preloader').addClass('loaded');
+                $('body').removeClass('no-scroll-y');
+
+                if ($('#ctn-preloader').hasClass('loaded')) {
+                    $('#preloader').delay(1000).queue(function () {
+                        $(this).remove();
+                    });
                 }
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('.gallery-1').magnificPopup({
-                delegate: 'a',
-                type: 'image',
-                tLoading: 'Loading image #%curr%...',
-                mainClass: 'mfp-img-mobile',
-                gallery: {
-                    enabled: true,
-                    navigateByImgClick: true,
-                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-                },
-                image: {
-                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-                    titleSrc: function (item) {
-                        return item.el.attr('title');
-                    }
-                }
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('.gallery-2').magnificPopup({
-                delegate: 'a',
-                type: 'image',
-                tLoading: 'Loading image #%curr%...',
-                mainClass: 'mfp-img-mobile',
-                gallery: {
-                    enabled: true,
-                    navigateByImgClick: true,
-                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-                },
-                image: {
-                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-                    titleSrc: function (item) {
-                        return item.el.attr('title');
-                    }
-                }
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('.gallery-3').magnificPopup({
-                delegate: 'a',
-                type: 'image',
-                tLoading: 'Loading image #%curr%...',
-                mainClass: 'mfp-img-mobile',
-                gallery: {
-                    enabled: true,
-                    navigateByImgClick: true,
-                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-                },
-                image: {
-                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-                    titleSrc: function (item) {
-                        return item.el.attr('title');
-                    }
-                }
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('.gallery-4').magnificPopup({
-                delegate: 'a',
-                type: 'image',
-                tLoading: 'Loading image #%curr%...',
-                mainClass: 'mfp-img-mobile',
-                gallery: {
-                    enabled: true,
-                    navigateByImgClick: true,
-                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-                },
-                image: {
-                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-                    titleSrc: function (item) {
-                        return item.el.attr('title');
-                    }
-                }
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('.gallery-5').magnificPopup({
-                delegate: 'a',
-                type: 'image',
-                tLoading: 'Loading image #%curr%...',
-                mainClass: 'mfp-img-mobile',
-                gallery: {
-                    enabled: true,
-                    navigateByImgClick: true,
-                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-                },
-                image: {
-                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-                    titleSrc: function (item) {
-                        return item.el.attr('title');
-                    }
-                }
-            });
+            }, 2000);
+
         });
     </script>
 
 
-
-    <script type="text/javascript">
-        $('.navbar-nav>li>a').on('click', function () {
-            $('.navbar-collapse').collapse('hide');
-        });
-    </script>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
 </body>
 
 </html>
